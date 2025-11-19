@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Modules\{{module}}\Infrastructure\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class {{model}} extends Model
+{
+    protected $table = '{{strtolower(plural($model))}}';
+    protected $fillable = ['*'];
+    protected $guarded = [];
+}

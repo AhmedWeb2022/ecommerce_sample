@@ -1,0 +1,15 @@
+<?php
+
+namespace {{DummyNamespace}};
+
+use App\Modules\Base\Domain\DTO\BaseDTOAbstract;
+
+class {{DummyClass}} extends BaseDTOAbstract
+{
+    public ${{model}}_id;
+
+    public function __construct(array $data = [])
+    {
+        parent::__construct($data);
+    }
+}
